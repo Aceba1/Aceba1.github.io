@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Router from 'svelte-spa-router'
+	import routes from './routes';
+</script>
+
+<!-- This will behave as the ROOT for all other components -->
+
+<svelte:head>
+  <title>Navaurum</title>
+</svelte:head>
+
+<body>
+  <Router {routes} />
+</body>
