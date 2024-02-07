@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Home | Navaurum</title>
+	<title>Home | Navaurum</title>
 </svelte:head>
 
-<p>And in the end, there was nothing</p>
+<p>In the beginning, there was chaos</p>
